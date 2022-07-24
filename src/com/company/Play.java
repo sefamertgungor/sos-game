@@ -125,7 +125,7 @@ public class Play {
                 playControl = true;
 
                 if (boardAreaList.isEmpty()) {
-                    System.out.println("\n.....Oyun bitmistir.....\n");
+                    System.out.println("\n..... Game Over .....\n");
                     System.out.println("Your Score: " + player.getScore() + " Computer Score: " + computer.getScore());
                     winCheckPrint(player, computer);
                     break;
@@ -142,7 +142,7 @@ public class Play {
                 playControl = true;
 
                 if (boardAreaList.isEmpty()) {
-                    System.out.println("\n.....Oyun bitmistir.....\n");
+                    System.out.println("\n..... Game Over .....\n");
                     System.out.println("Your Score: " + player.getScore() + "---"+" Computer Score: " + computer.getScore());
                     winCheckPrint(player, computer);
                     break;
@@ -165,7 +165,7 @@ public class Play {
                 playControl = true;
 
                 if (boardAreaList.isEmpty()) {
-                    System.out.println("\n.....Oyun bitmistir.....\n");
+                    System.out.println("\n..... Game Over .....\n");
                     System.out.println("Your Score: " + player.getScore() + " Computer Score: " + computer.getScore());
                     winCheckPrint(player, computer);
                     break;
@@ -183,7 +183,7 @@ public class Play {
                 playControl = true;
 
                 if (boardAreaList.isEmpty()) {
-                    System.out.println("\n.....Oyun bitmistir.....\n");
+                    System.out.println("\n..... Game Over .....\n");
                     System.out.println("Your Score: " + player.getScore() + " Computer Score: " + computer.getScore());
                     winCheckPrint(player, computer);
                     break;

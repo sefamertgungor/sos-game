@@ -11,10 +11,10 @@ public class PlayGround {
         Scanner scan = new Scanner(System.in);
         int boardSize;
 
-        System.out.println("\n**********************************OYUN BASLAMISTIR************************************************\n");
+        System.out.println("\n********************************** THE GAME HAS STARTED ************************************************\n");
         while(true){
 
-            System.out.print("----------> Lutfen oyun tahtasinin boyutunu giriniz (3-7): ");
+            System.out.print("----------> Please enter the size of the game board (3-7): ");
             boardSize = scan.nextInt();
 
             //Size check for entered
@@ -22,7 +22,7 @@ public class PlayGround {
                 break;
             }
 
-            System.out.println("\n!!!!Lutfen sinirlar icinde giriniz!!!\n");
+            System.out.println("\n!!!!Please enter within limits!!!\n");
         }
 
         int horizontal = (boardSize);
@@ -36,7 +36,7 @@ public class PlayGround {
             }
         }
 
-        System.out.println("\n::::::Olusturulan Oyun Alani:::::\n");
+        System.out.println("\n::::::The Created Playground:::::\n");
         printBoard(gameBoard);
 
         return gameBoard;
